@@ -40,7 +40,6 @@ npm run dev -- --port 5173
 
 - `data/config.yaml`: League IDs, team mappings, user GUIDs
 - `.env`: API secrets (never committed), server boots without secrets for public paths
-- **ESPN GUID Discovery:** DevTools → network filter `gambit-api.fantasy.espn.com` → copy `user_guid` from `/entries/` URL
 
 ## API & Caching Strategy
 
